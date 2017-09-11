@@ -7,6 +7,8 @@
 body{
 	background-image: url("img/bg.jpg");
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	line-height: 1.7em;
 }
 
@@ -33,8 +35,8 @@ a{
 .menu{
 	height: auto;
 	width: 800px;
-	margin-left: 250px;
-	margin-right: 250px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 47px;
 	text-align: center;
 }
@@ -60,15 +62,14 @@ i{
 }
 
 .pagebox1{
-	margin-top: 30px;
-	margin-left: 340px;
-	height: auto;
-	width: 650px;
 	background-color: grey;
-	display: inline-block;
-	border:1px solid black;
 	opacity: 0.8;
-	font-family: sans-serif;
+	height: auto;
+	width: 750px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px 5px 5px;
 }
 
 h1{
